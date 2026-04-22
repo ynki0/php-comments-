@@ -1,5 +1,3 @@
-# Тестовое задание на основе Docker и CodeIgniter для Fullstack разработчика
-
 ## Первоначальная настройка
 
 -   Устанавливаем Docker c [официального сайта](https://www.docker.com/products/docker-desktop) и [Docker Compose](https://docs.docker.com/compose/install/);
