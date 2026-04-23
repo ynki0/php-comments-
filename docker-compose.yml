@@ -4,7 +4,7 @@ services:
             context: .
             dockerfile: docker/mysql/Dockerfile
         environment:
-            MYSQL_DATABASE: ${MYSQL_DATABASE:-codeigniter_db}
+            MYSQL_DATABASE: ${MYSQL_DATABASE}
             MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
         command: --mysql-native-password=ON
         restart: unless-stopped
